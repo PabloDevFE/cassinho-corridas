@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Protótipo visual do site da Cassinho Corridas — assessoria esportiva para quem quer correr com método e superar limites."
+    />
+    <meta name="theme-color" content="#080a08" />
+    <title>Cassinho Corridas — Supere seus limites</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+
+    <header class="site-header" data-header>
+      <a class="brand" href="#inicio" aria-label="Cassinho Corridas — início">
+        <img src="assets/cassinho-logo.png" alt="Logo Cassinho Corridas" />
+        <span class="brand__text">
+          <strong>CASSINHO</strong>
+          <small>CORRIDAS</small>
+        </span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" data-menu-toggle>
+        <span></span><span></span>
+      </button>
+
+      <nav class="main-nav" aria-label="Navegação principal" data-menu>
+        <a href="#assessoria">A assessoria</a>
+        <a href="#modalidades">Modalidades</a>
+        <a href="#metodo">Como funciona</a>
+        <a href="#loja">Loja</a>
+        <a class="nav-cta" href="#contato">Quero treinar</a>
+      </nav>
+    </header>
+
+    <main id="conteudo">
+      <section class="hero" id="inicio" aria-labelledby="hero-title">
+        <div class="hero__media" role="img" aria-label="Grupo de corredores treinando em uma avenida ao amanhecer"></div>
+        <div class="hero__grid" aria-hidden="true"></div>
+        <div class="hero__speed-lines" aria-hidden="true"></div>
+
+        <div class="container hero__content">
+          <p class="eyebrow reveal">Assessoria esportiva <i></i> corrida</p>
+          <h1 id="hero-title" class="reveal reveal--delay-1">
+            Corra com<br />
+            <span>método.</span>
+          </h1>
+          <p class="hero__lead reveal reveal--delay-2">
+            Planejamento, acompanhamento e uma equipe que corre ao seu lado — do primeiro passo à próxima grande meta.
+          </p>
+          <div class="hero__actions reveal reveal--delay-3">
+            <a class="button button--primary" href="#contato">
+              Comece agora
+              <span aria-hidden="true">↗</span>
+            </a>
+            <a class="text-link" href="#metodo">Conheça o método <span aria-hidden="true">↓</span></a>
+          </div>
+        </div>
+
+        <div class="hero__side-note" aria-hidden="true">
+          <span>MOVE</span><span>FOCUS</span><span>EVOLVE</span>
+        </div>
+      </section>
+
+      <div class="ticker" aria-hidden="true">
+        <div class="ticker__track">
+          <span>SEU RITMO</span><i>●</i><span>SUA META</span><i>●</i><span>SUA MELHOR VERSÃO</span><i>●</i>
+          <span>SEU RITMO</span><i>●</i><span>SUA META</span><i>●</i><span>SUA MELHOR VERSÃO</span><i>●</i>
+        </div>
+      </div>
+
+      <section class="about section-dark" id="assessoria">
+        <div class="container about__grid">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Mais que planilha</p>
+            <h2>Treino inteligente.<br /><span>Presença de verdade.</span></h2>
+          </div>
+
+          <div class="about__copy reveal reveal--delay-1">
+            <p class="lead-copy">
+              Na Cassinho Corridas, cada objetivo vira um plano possível. A proposta une orientação profissional,
+              constância e comunidade para fazer você evoluir com segurança.
+            </p>
+            <p>
+              Seja para começar, ganhar ritmo ou encarar uma nova distância, o treino acompanha sua rotina — e não o
+              contrário.
+            </p>
+          </div>
+
+          <div class="about__values">
+            <article class="value-card reveal">
+              <span>01</span>
+              <h3>Individual</h3>
+              <p>Planejamento pensado para o seu momento, sua disponibilidade e seu objetivo.</p>
+            </article>
+            <article class="value-card reveal reveal--delay-1">
+              <span>02</span>
+              <h3>Próximo</h3>
+              <p>Acompanhamento contínuo para ajustar a rota e manter você em movimento.</p>
+            </article>
+            <article class="value-card reveal reveal--delay-2">
+              <span>03</span>
+              <h3>Coletivo</h3>
+              <p>Uma equipe que compartilha o percurso e transforma treino em pertencimento.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="modalities" id="modalidades">
+        <div class="container">
+          <div class="section-top reveal">
+            <div>
+              <p class="eyebrow eyebrow--dark">Encontre seu percurso</p>
+              <h2>Uma assessoria.<br />Vários caminhos.</h2>
+            </div>
+            <p>Escolha onde quer chegar. A gente constrói o caminho junto com você.</p>
+          </div>
+
+          <div class="modalities__grid">
+            <article class="modality-card modality-card--featured reveal">
+              <div class="modality-card__number">01</div>
+              <div class="modality-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 64 64"><path d="M9 44c11-1 17-7 22-19 4 7 9 12 17 14M22 20l8-7 9 5M15 52h36" /></svg>
+              </div>
+              <div>
+                <p>Ritmo, resistência e evolução</p>
+                <h3>Corrida de rua</h3>
+                <a href="#contato" aria-label="Saiba mais sobre corrida de rua">Explorar <span>↗</span></a>
+              </div>
+            </article>
+
+            <article class="modality-card reveal reveal--delay-1">
+              <div class="modality-card__number">02</div>
+              <div class="modality-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 64 64"><path d="M7 48 24 25l9 11 8-13 16 25M18 48h30M29 19l5-7 6 8" /></svg>
+              </div>
+              <div>
+                <p>Novos terrenos, novos limites</p>
+                <h3>Trail & longão</h3>
+                <a href="#contato" aria-label="Saiba mais sobre trail e longão">Explorar <span>↗</span></a>
+              </div>
+            </article>
+
+            <article class="modality-card reveal reveal--delay-2">
+              <div class="modality-card__number">03</div>
+              <div class="modality-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 64 64"><rect x="18" y="7" width="28" height="50" rx="5"/><path d="M26 14h12M28 49h8M12 29l-5 5 5 5M52 29l5 5-5 5"/></svg>
+              </div>
+              <div>
+                <p>Orientação onde você estiver</p>
+                <h3>Treino online</h3>
+                <a href="#contato" aria-label="Saiba mais sobre treino online">Explorar <span>↗</span></a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="method section-dark" id="metodo">
+        <div class="container method__grid">
+          <div class="method__intro reveal">
+            <p class="eyebrow">O método Cassinho</p>
+            <h2>Você traz a meta.<br /><span>Nós traçamos a rota.</span></h2>
+            <p>Um processo simples, próximo e adaptável para transformar intenção em consistência.</p>
+            <a class="button button--outline" href="#contato">Falar com a equipe <span>↗</span></a>
+          </div>
+
+          <ol class="method__steps">
+            <li class="reveal">
+              <span class="method__index">01</span>
+              <div>
+                <p class="method__tag">Ponto de partida</p>
+                <h3>Diagnóstico</h3>
+                <p>Entendemos seu histórico, sua rotina e o objetivo que move você.</p>
+              </div>
+            </li>
+            <li class="reveal reveal--delay-1">
+              <span class="method__index">02</span>
+              <div>
+                <p class="method__tag">Plano de ação</p>
+                <h3>Treino sob medida</h3>
+                <p>Organizamos a evolução em etapas claras, compatíveis com o seu dia a dia.</p>
+              </div>
+            </li>
+            <li class="reveal reveal--delay-2">
+              <span class="method__index">03</span>
+              <div>
+                <p class="method__tag">Evolução contínua</p>
+                <h3>Acompanhamento</h3>
+                <p>Feedback e ajustes mantêm o treinamento vivo e você no rumo certo.</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="store" id="loja">
+        <div class="container">
+          <div class="section-top section-top--store reveal">
+            <div>
+              <p class="eyebrow eyebrow--dark">Cassinho Store</p>
+              <h2>Vista o movimento.</h2>
+            </div>
+            <p>Produtos da equipe e escolhas parceiras para acompanhar cada quilômetro.</p>
+          </div>
+
+          <div class="store-tabs" aria-label="Categorias da loja">
+            <button class="is-active" type="button">Todos</button>
+            <button type="button">Nossa marca</button>
+            <button type="button">Parceiros</button>
+          </div>
+
+          <div class="products">
+            <article class="product-card reveal">
+              <div class="product-card__visual product-card__visual--shirt">
+                <span class="product-card__badge">Cassinho</span>
+                <svg viewBox="0 0 240 230" role="img" aria-label="Ilustração de camiseta esportiva preta da Cassinho">
+                  <path d="M81 28 105 18h30l24 10 44 28-24 39-24-14v121H85V81L61 95 37 56Z" />
+                  <path class="product-accent" d="M91 31c11 16 47 16 58 0l-14-7h-30Z" />
+                  <text x="120" y="120" text-anchor="middle">CC</text>
+                </svg>
+              </div>
+              <div class="product-card__info">
+                <div><p>Linha oficial</p><h3>Camiseta Performance</h3></div>
+                <button type="button">Pedir no WhatsApp <span>↗</span></button>
+              </div>
+            </article>
+
+            <article class="product-card reveal reveal--delay-1">
+              <div class="product-card__visual product-card__visual--cap">
+                <span class="product-card__badge">Cassinho</span>
+                <svg viewBox="0 0 240 230" role="img" aria-label="Ilustração de boné esportivo verde da Cassinho">
+                  <path d="M54 130c0-61 28-94 70-94s70 34 70 94c-47-20-93-20-140 0Z" />
+                  <path d="M49 132c48-21 95-21 142 0-15 28-72 38-146 19-15-4-14-13 4-19Z" />
+                  <text x="124" y="105" text-anchor="middle">CC</text>
+                </svg>
+              </div>
+              <div class="product-card__info">
+                <div><p>Linha oficial</p><h3>Boné Pace</h3></div>
+                <button type="button">Pedir no WhatsApp <span>↗</span></button>
+              </div>
+            </article>
+
+            <article class="product-card product-card--partner reveal reveal--delay-2">
+              <div class="product-card__visual product-card__visual--shoe">
+                <span class="product-card__badge">Indicação parceira</span>
+                <svg viewBox="0 0 240 230" role="img" aria-label="Ilustração de tênis de corrida branco e verde">
+                  <path d="M43 134c21-5 36-18 46-49l23 14c13 8 30 12 46 14l31 4c18 2 30 12 32 31l-7 18H48c-25 0-29-25-5-32Z" />
+                  <path class="product-accent" d="m88 91 16 12-15 37H55c15-10 25-26 33-49ZM116 112l46 8-9 12-43-6Z" />
+                  <path class="product-line" d="M53 148h151M115 104l-9 18M130 109l-9 17M145 113l-9 16" />
+                </svg>
+              </div>
+              <div class="product-card__info">
+                <div><p>Produto afiliado</p><h3>Escolhas para correr</h3></div>
+                <button type="button">Ver ofertas <span>↗</span></button>
+              </div>
+            </article>
+          </div>
+
+          <div class="store-note reveal">
+            <span>i</span>
+            <p>Os produtos, preços e links desta seção são demonstrativos e serão substituídos pelos itens reais.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="final-cta" id="contato">
+        <div class="final-cta__mark" aria-hidden="true">C</div>
+        <div class="container final-cta__content reveal">
+          <p class="eyebrow">Seu próximo passo começa aqui</p>
+          <h2>Bora correr?</h2>
+          <p>Conte sua meta para a gente e descubra o treino ideal para o seu momento.</p>
+          <a class="button button--dark" href="#">Conversar no WhatsApp <span>↗</span></a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer__top">
+        <a class="brand brand--footer" href="#inicio" aria-label="Cassinho Corridas — início">
+          <img src="assets/cassinho-logo.png" alt="" />
+          <span class="brand__text"><strong>CASSINHO</strong><small>CORRIDAS</small></span>
+        </a>
+        <p>Supere seus limites.<br />Viva sua melhor versão.</p>
+        <div class="footer__links">
+          <a href="#">Instagram</a>
+          <a href="#">WhatsApp</a>
+          <a href="#">Strava</a>
+        </div>
+      </div>
+      <div class="container footer__bottom">
+        <span>© 2026 Cassinho Corridas</span>
+        <span>Protótipo visual · conteúdo demonstrativo</span>
+      </div>
+    </footer>
+
+    <a class="whatsapp-float" href="#contato" aria-label="Falar com a Cassinho Corridas">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 4a11 11 0 0 0-9.5 16.5L5 27l6.7-1.5A11 11 0 1 0 16 4Zm6.5 15.8c-.3.8-1.7 1.5-2.4 1.6-.6.1-1.4.2-4.6-1.1-3.8-1.6-6.3-5.5-6.5-5.8-.2-.3-1.5-2-.1-3.9.5-.7 1.1-1 1.6-1h1.1c.3 0 .6.1.8.7l1.1 2.7c.1.3.1.6 0 .8l-.8 1.1c-.3.3-.5.6-.2 1.1.3.5 1.3 2.1 2.9 3.4 2 1.7 3.6 2.2 4.1 2.5.5.2.8.2 1.1-.1l1.4-1.7c.3-.4.6-.4 1-.3l2.6 1.2c.5.2.8.3.9.5.1.2.1.9 0 1.3Z" /></svg>
+    </a>
+
+    <script src="script.js"></script>
+  </body>
+</html>
